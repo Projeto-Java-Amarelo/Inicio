@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class LoginDoProfissional {
 
-	public static void main(String[] args) {
+	void Login() { // só pode ter um main por projeto. é a parte principal dele
 
 		String emailMedicoLegal = "medicolegal@gmail.com", emailInformado, senhaMedicoLegal = "12345678",
 				senhaInformada;
