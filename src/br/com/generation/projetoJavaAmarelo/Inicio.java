@@ -10,7 +10,7 @@ public class Inicio {
 
 		LoginDoProfissional login1 = new LoginDoProfissional(); // para se linkar uma classe na outra é igual o processo
 																// que se faz com o Scanner
-		login1.Login();
+		login1.login();
 
 	}
 }
