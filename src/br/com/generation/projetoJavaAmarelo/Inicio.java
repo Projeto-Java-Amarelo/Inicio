@@ -8,9 +8,9 @@ public class Inicio {
 		System.out.println("Olá,seja bem vindo(a), estamos no setembro amarelo, e esse projeto tem o");
 		System.out.println("objetivo de encurtar distâncias.");
 
-		LoginDoProfissional Login1 = new LoginDoProfissional(); // para se linkar uma classe na outra é igual o processo
+		LoginDoProfissional login1 = new LoginDoProfissional(); // para se linkar uma classe na outra é igual o processo
 																// que se faz com o Scanner
-		Login1.Login();
+		login1.Login();
 
 	}
 }
