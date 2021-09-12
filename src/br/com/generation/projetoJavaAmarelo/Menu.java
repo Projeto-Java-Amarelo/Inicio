@@ -6,10 +6,10 @@ public class Menu implements Opcao {
 	Scanner leia = new Scanner(System.in);	
 	int opcao;
 	
+	
 	@Override
 	public void menuInicio() {
-		LoginDoProfissional login = new LoginDoProfissional();				
-		
+			
 		
 		System.out.println("\nEscolha a opção que mais se enquadra:"
 				+ "\n1.Paciente"
@@ -22,7 +22,8 @@ public class Menu implements Opcao {
 				menuPaciente();
 				break;
 			
-			case 2:				
+			case 2:			
+				LoginDoProfissional login = new LoginDoProfissional();
 				login.login();
 				break;
 			
@@ -66,4 +67,6 @@ public class Menu implements Opcao {
 		}
 		leia.close();		
 	}
+
+	
 }
