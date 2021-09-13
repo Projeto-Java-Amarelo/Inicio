@@ -23,13 +23,19 @@ public class LoginDoProfissional extends Dados {
 			senhaInformada = entrada.next();
 			dados1.setSenhaInformada(senhaInformada);
 
-			if (emailInformado.equals(dados1.getEmailInformado())
-					&& senhaInformada.equals(dados1.getSenhaInformada())) {
+			if (emailInformado.equals(dados1.getEmailMedicoLegal())
+					&& senhaInformada.equals(dados1.getSenhaMedicoLegal())) {
 				// Strings não são do tipo primitivo,
 				// então para compará-las, se usa o
 				// .equals()
 
 				System.out.println("Bem vindo.");
+				//TestandoOption02 teste = new TestandoOption02();
+				//teste.aprentaOp2();
+				
+				ImprimeLista imp = new ImprimeLista();
+				imp.imprimir();
+				
 				break;
 
 			} else {
