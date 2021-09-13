@@ -3,10 +3,10 @@ package br.com.generation.projetoJavaAmarelo;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class TestandoOption2 {
+public class TestandoOption02 {
 
 	public static void main(String[] args) {
-	
+		
 		Scanner entrada = new Scanner(System.in);
 		ArrayList<Option2> dados = new ArrayList<>();
 		String nome;
@@ -32,9 +32,7 @@ public class TestandoOption2 {
 			System.out.println("E-mail:");
 			email = entrada.nextLine();
 
-			dados.add(new Option2 (nome, email, telefone)); // é necessário criar um objeto para ser salvo essa
-			//variável, que não
-			// pode ser usada fora do for
+			dados.add(new Option2 (nome, email, telefone)); 
 		}
 
 		for (Option2 i : dados) {
@@ -42,6 +40,7 @@ public class TestandoOption2 {
 		}
 
 		entrada.close();
+
 	}
 
 }
