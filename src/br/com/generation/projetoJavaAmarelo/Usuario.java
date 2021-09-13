@@ -1,4 +1,4 @@
-package br.com.generation.javaprojeto;
+package br.com.generation.projetoJavaAmarelo;
 
 import java.util.Scanner;
 

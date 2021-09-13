@@ -29,7 +29,8 @@ public class LoginDoProfissional extends Dados {
 				// então para compará-las, se usa o
 				// .equals()
 
-				System.out.println("Bem vindo.");
+				ImprimeLista lista = new ImprimeLista();
+				lista.imprimindo();
 				break;
 
 			} else {
