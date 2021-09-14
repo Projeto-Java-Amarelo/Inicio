@@ -53,7 +53,8 @@ public class Menu implements Opcao {
 			break;
 
 		case 3:
-			// Prevenção
+			Option3 prevencao = new Option3();
+			prevencao.menuPrevencao();
 			break;
 		default:
 			// chamar Método de limpar console

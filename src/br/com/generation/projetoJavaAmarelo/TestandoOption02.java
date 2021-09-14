@@ -27,7 +27,8 @@ public class TestandoOption02 {
 		String email;
 		String telefone;
 		int quantidade;
-
+		int opcao;
+		
 		System.out.println("Quantos usuários você quer cadastrar? ");
 		quantidade = entrada.nextInt();
 
@@ -55,9 +56,18 @@ public class TestandoOption02 {
 
 		System.out.println("Dados cadastrados com sucesso!");
 
-		Menu menu = new Menu();
-		menu.menuInicio();
-
+		System.out.println("[1] Encerrar o programa");
+		System.out.println("[2] Menu Inicial");
+		opcao = entrada.nextInt();
+		switch(opcao) {
+		case 1:
+			Encerramento encerramento = new Encerramento();
+			encerramento.encerrar();
+			
+		case 2:
+			Menu menu=new Menu();
+			menu.menuInicio();
+		}
 		entrada.close();
 
 	}
