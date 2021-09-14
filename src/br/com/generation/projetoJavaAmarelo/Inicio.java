@@ -4,7 +4,7 @@ public class Inicio {
 
 	public static void main(String[] args) {
 
-		System.out.println("******************************** MENU **********************************");
+		System.out.println("************************** SEJA BEM VINDO(A) ***************************\n");
 		System.out.println("Olá,seja bem vindo(a), estamos no setembro amarelo, e esse projeto tem o");
 		System.out.println("objetivo de encurtar distâncias.");
 

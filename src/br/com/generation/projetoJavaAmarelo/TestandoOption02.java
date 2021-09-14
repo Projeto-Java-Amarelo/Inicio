@@ -19,7 +19,7 @@ public class TestandoOption02 {
 	}*/
 	
 	
-	public void aprentaOp2() {
+	public void apresentaOp2() {
 
 		Scanner entrada = new Scanner(System.in);
 
