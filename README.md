@@ -1,5 +1,9 @@
 # Projeto Java Amarelo - ```Generation Brazil```
 ### Projeto Integrador - Módulo I
+<p align="center">
+<img src="https://user-images.githubusercontent.com/42879442/133196854-32ef7e51-f14b-419e-b579-9be4a8ab3529.png" width="500" align="center" title="hover text">
+</p>
+
 
 Aplicativo que pretende auxiliar pessoas a encontrar tratamentos 
 e terapias psicológicas no SUS e com nossos parceiros(fictícios) da rede privada. <br>
