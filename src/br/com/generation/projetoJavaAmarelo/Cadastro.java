@@ -28,7 +28,7 @@ public class Cadastro {
 		int quantidade;
 		int opcao;
 		
-		System.out.println("\n************************** CADASTRO **************************\n");
+		System.out.println("\n******************************** CADASTRO *******************************\n");
 		System.out.println("Quantos usuários você quer cadastrar? ");
 		quantidade = entrada.nextInt();
 
