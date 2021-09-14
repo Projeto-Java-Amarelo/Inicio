@@ -2,8 +2,8 @@ package br.com.generation.projetoJavaAmarelo;
 
 import java.util.Scanner;
 
-public class Option3 {
-	Scanner leia = new Scanner(System.in);
+public class Option3Prevencao {
+	Scanner entrada = new Scanner(System.in);
 	int opcao;
 
 	// menuPrevencao
@@ -24,7 +24,7 @@ public class Option3 {
 				+ "na prevenção do " + "\nsuicídio pelo telefone 188, " + "e também por chat, e-mail e pessoalmente.");
 		System.out.println("\n[1] Encerrar o programa");
 		System.out.println("[2] Menu Inicial");
-		opcao = leia.nextInt();
+		opcao = entrada.nextInt();
 		switch (opcao) {
 		case 1:
 			Encerramento encerramento = new Encerramento();
@@ -34,6 +34,6 @@ public class Option3 {
 			Menu menu = new Menu();
 			menu.menuInicio();
 		}
-		leia.close();
+		entrada.close();
 	}
 }

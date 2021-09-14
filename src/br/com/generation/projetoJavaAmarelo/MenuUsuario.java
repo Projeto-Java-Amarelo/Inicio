@@ -28,7 +28,7 @@ public class MenuUsuario implements Opcao {
 			break;
 
 		case 3:
-			Option3 prevencao = new Option3();
+			Option3Prevencao prevencao = new Option3Prevencao();
 			prevencao.menuPrevencao();
 			break;
 		default:

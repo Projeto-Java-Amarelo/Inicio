@@ -7,7 +7,7 @@ public class Option1Sus {
 	public void ApresentaOp() { // vamos tentar colocar esse método num método "pai" (de uma superclasse) pra
 								// sobrecarrega-lo dentro das Op1, 2 e 3;
 		Menu menu = new Menu();
-		Scanner ler = new Scanner(System.in);
+		Scanner entrada = new Scanner(System.in);
 		int resp = 1;
 		System.out.println("************************** CONSULTA NO SUS <3 **************************\n");
 
@@ -28,14 +28,14 @@ public class Option1Sus {
 					+ "\nmarcada, você receberá um papel com a data marcada de sua consulta. -Daí é"
 					+ "\nsó aguardar o dia e comparecer no horário correto da consulta.");
 			System.out.println("\nDESEJA REPETIR A EXPLICAÇÃO ? " + "\n[1]SIM " + "\n[2] NÃO");
-			resp = ler.nextInt();
+			resp = entrada.nextInt();
 			if (resp == 2) {
 				System.out.println("\nObrigado!" + "\nVoltando ao menu...");
 				menu.menuInicio();
 			}
 
 		} // fechamento do while
-		ler.close();
+		entrada.close();
 
 	}// chave do ApresentaOp
 
