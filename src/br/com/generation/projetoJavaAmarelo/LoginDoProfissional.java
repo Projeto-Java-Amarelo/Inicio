@@ -32,9 +32,8 @@ public class LoginDoProfissional extends Dados {
 				System.out.println("Bem vindo.");
 				//TestandoOption02 teste = new TestandoOption02();
 				//teste.aprentaOp2();
-				
-				ImprimeLista imp = new ImprimeLista();
-				imp.imprimir();
+				TestandoOption02 testando = new TestandoOption02();
+				testando.imprimindo();
 				
 				break;
 

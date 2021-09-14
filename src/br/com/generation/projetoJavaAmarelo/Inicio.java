@@ -14,7 +14,6 @@ public class Inicio {
 		// login1.login();
 
 		Menu menu = new Menu();
-
 		menu.menuInicio();
 
 	}

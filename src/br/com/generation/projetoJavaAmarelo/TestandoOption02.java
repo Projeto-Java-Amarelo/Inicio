@@ -6,19 +6,18 @@ import java.util.Scanner;
 public class TestandoOption02 {
 	public ArrayList<Option2> dados = new ArrayList<>();
 
-	public ArrayList<Option2> pegaDado() {
-		System.out.println("teste");		
-		return dados;
-	}
 	/*
-	public String imprimirDados(String dadosPaciente) {
-		for (Option2 i : dadosPaciente) {
-			System.out.println(i);
-		}
-		
-	}*/
-	
-	
+	 * public ArrayList<Option2> pegaDado() { //System.out.println("teste"); return
+	 * dados; }
+	 */
+
+	/*
+	 * public String imprimirDados(String dadosPaciente) { for (Option2 i :
+	 * dadosPaciente) { System.out.println(i); }
+	 * 
+	 * }
+	 */
+
 	public void apresentaOp2() {
 
 		Scanner entrada = new Scanner(System.in);
@@ -28,7 +27,7 @@ public class TestandoOption02 {
 		String telefone;
 		int quantidade;
 		int opcao;
-		
+
 		System.out.println("Quantos usuários você quer cadastrar? ");
 		quantidade = entrada.nextInt();
 
@@ -59,17 +58,23 @@ public class TestandoOption02 {
 		System.out.println("[1] Encerrar o programa");
 		System.out.println("[2] Menu Inicial");
 		opcao = entrada.nextInt();
-		switch(opcao) {
+		switch (opcao) {
 		case 1:
 			Encerramento encerramento = new Encerramento();
 			encerramento.encerrar();
-			
+
 		case 2:
-			Menu menu=new Menu();
+			Menu menu = new Menu();
 			menu.menuInicio();
 		}
 		entrada.close();
 
+	}
+
+	public void imprimindo() {
+
+		for (Option2 i : dados)
+			System.out.println(i);
 	}
 
 }
