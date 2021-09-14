@@ -16,8 +16,8 @@ public class Menu implements Opcao {
 
 		switch (opcao) {
 		case 1:
-			MenuPaciente menuPaciente = new MenuPaciente();
-			menuPaciente.menuPaciente();
+			MenuUsuario menuUsuario = new MenuUsuario();
+			menuUsuario.menuUsuario();
 			break;
 
 		case 2:
@@ -35,7 +35,7 @@ public class Menu implements Opcao {
 	}
 
 	@Override
-	public void menuPaciente() {
+	public void menuUsuario() {
 		// TODO Auto-generated method stub
 		
 	}

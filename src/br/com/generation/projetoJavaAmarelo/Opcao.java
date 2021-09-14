@@ -6,7 +6,7 @@ public interface Opcao {
 
 	public void menuInicio();
 	
-	public void menuPaciente();
+	public void menuUsuario();
 	
 
 	

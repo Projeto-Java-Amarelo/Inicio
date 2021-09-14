@@ -2,29 +2,29 @@ package br.com.generation.projetoJavaAmarelo;
 
 import java.util.Scanner;
 
-public class MenuPaciente implements Opcao {
+public class MenuUsuario implements Opcao {
 
 	@Override
-	public void menuPaciente() {
+	public void menuUsuario() {
 		Scanner entrada = new Scanner(System.in);
 		int opcao;
 		System.out.println("\n*************************** MENU DO USUÁRIO ****************************\n");
-		
-		System.out.println(
-				"Escolha a opção que mais se enquadra:" + "\n1.Procedimento de Agendamento de Consulta no SUS"
-						+ "\n2.Cadastrar seus dados na base" + "\n3.Prevenção ao suicídio");
-		System.out.println("\nOpção: ");
+
+		System.out
+				.println("Escolha a opção que mais se enquadra:" + "\n[1]Procedimento de Agendamento de Consulta no SUS"
+						+ "\n[2]Cadastrar seus dados na base" + "\n[3]Prevenção ao suicídio");
+		// System.out.println("\nOpção: ");
 		opcao = entrada.nextInt();
 
 		switch (opcao) {
 		case 1:
-			Option1 option1 = new Option1();
+			Option1Sus option1 = new Option1Sus();
 			option1.ApresentaOp();
 			break;
 
 		case 2:
-			TestandoOption02 option2 = new TestandoOption02();
-			option2.apresentaOp2();
+			Cadastro option2 = new Cadastro();
+			option2.cadastrando();
 			break;
 
 		case 3:
@@ -34,7 +34,7 @@ public class MenuPaciente implements Opcao {
 		default:
 			// chamar Método de limpar console
 			System.out.println("Opção válida!");
-			menuPaciente();
+			menuUsuario();
 
 		}
 		entrada.close();

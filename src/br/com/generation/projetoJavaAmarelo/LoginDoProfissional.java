@@ -12,7 +12,8 @@ public class LoginDoProfissional extends Dados {
 		int tentativas = 1;
 		String senhaInformada;
 		String emailInformado;
-
+		System.out.println("\n************************ LOGIN DO PROFISSIONAL *************************\n");
+		
 		while (tentativas <= 3) {
 
 			System.out.println("Insira seu e-mail:");
@@ -32,7 +33,7 @@ public class LoginDoProfissional extends Dados {
 				System.out.println("Bem vindo.");
 				//TestandoOption02 teste = new TestandoOption02();
 				//teste.aprentaOp2();
-				TestandoOption02 testando = new TestandoOption02();
+				Cadastro testando = new Cadastro();
 				testando.imprimindo();
 				
 				break;

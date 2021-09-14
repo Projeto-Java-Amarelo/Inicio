@@ -3,8 +3,8 @@ package br.com.generation.projetoJavaAmarelo;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class TestandoOption02 {
-	public ArrayList<Option2> dados = new ArrayList<>();
+public class Cadastro {
+	public ArrayList<SuperCadastro> dados = new ArrayList<>();
 
 	/*
 	 * public ArrayList<Option2> pegaDado() { //System.out.println("teste"); return
@@ -18,7 +18,7 @@ public class TestandoOption02 {
 	 * }
 	 */
 
-	public void apresentaOp2() {
+	public void cadastrando() {
 
 		Scanner entrada = new Scanner(System.in);
 
@@ -27,7 +27,8 @@ public class TestandoOption02 {
 		String telefone;
 		int quantidade;
 		int opcao;
-
+		
+		System.out.println("\n************************** CADASTRO **************************\n");
 		System.out.println("Quantos usuários você quer cadastrar? ");
 		quantidade = entrada.nextInt();
 
@@ -46,10 +47,10 @@ public class TestandoOption02 {
 			System.out.println("E-mail:");
 			email = entrada.nextLine();
 
-			dados.add(new Option2(nome, email, telefone));
+			dados.add(new SuperCadastro(nome, email, telefone));
 		}
 
-		for (Option2 i : dados) {
+		for (SuperCadastro i : dados) {
 			System.out.println(i);
 		}
 
@@ -73,7 +74,7 @@ public class TestandoOption02 {
 
 	public void imprimindo() {
 
-		for (Option2 i : dados)
+		for (SuperCadastro i : dados)
 			System.out.println(i);
 	}
 
