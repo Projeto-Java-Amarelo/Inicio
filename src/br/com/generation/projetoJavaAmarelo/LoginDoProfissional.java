@@ -35,6 +35,8 @@ public class LoginDoProfissional extends Dados {
 				//teste.aprentaOp2();
 				Cadastro testando = new Cadastro();
 				testando.imprimindo();
+				ListaPacientes imprimir = new ListaPacientes ();			
+				imprimir.imprimir();
 				
 				break;
 
