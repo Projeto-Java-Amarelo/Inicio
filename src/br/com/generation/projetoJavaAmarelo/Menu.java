@@ -10,7 +10,7 @@ public class Menu implements Opcao {
 	public void menuInicio() {
 		//72 CARACTERES
 		System.out.println("\n********************************* MENU *********************************\n");
-		System.out.println("Escolha a opção que mais se enquadra:" + "\n[1]Paciente" + "\n[2]Médico");
+		System.out.println("Escolha a opção que mais se enquadra:" + "\n[1]Usuário" + "\n[2]Médico");
 		//System.out.println("\nOpção: ");
 		opcao = leia.nextInt();
 
