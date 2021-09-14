@@ -38,3 +38,6 @@ Contato e informações sobre o centro de valorização a vida para pessoas que 
 
 > Possibilidade voltar para o início após o uso de qualquer opção.
 
+## License
+
+[MIT License](./LICENSE)
