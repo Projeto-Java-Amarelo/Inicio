@@ -1,5 +1,5 @@
 # Projeto Java Amarelo - ```Generation Brazil```
-### Projeto Integrador - Módulo I
+### Projeto - Módulo I
 <p align="center">
 <img src="https://user-images.githubusercontent.com/42879442/133196854-32ef7e51-f14b-419e-b579-9be4a8ab3529.png" width="500" align="center" title="hover text">
 </p>
